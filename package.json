@@ -1,0 +1,23 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "crud operation using mongodb jwt auth and redis implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dhanraj",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "nodemailer": "^6.9.12",
+    "pino": "^8.19.0",
+    "pino-pretty": "^10.3.1",
+    "redis": "^4.6.13"
+  }
+}
