@@ -29,10 +29,10 @@ Content-Type: application/json
 
 {
     "email":"choudharydhanraj239@gmail.com",
-    "otp":"132187",
+    "otp":"382317",
     "password":"admin@@123"
 }
 ### protected routs
 POST http://localhost:3000/auth/users
-authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkUmJUMzVnN09pY21vZUViVWpscWhiT09ic2FxNWp6L2dWL0I2b2lmdVhTcDBJNVhxN3dwa2EiLCJpYXQiOjE3MTAzMjYwMTgsImV4cCI6MTcxMDMyOTYxOH0.1nbDkWMEh4ObC6X78JtnltJeR_QZXnE1Ll8jbtr42MM
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkeWdXWmhQUy9LNDlFOEgydVZNYlkzZUpQSlcxL0s4V2U1bk4vRUIzdi5IeHVZMzdHS0pCNzIiLCJpYXQiOjE3MTA0MTEyNzAsImV4cCI6MTcxMDQxNDg3MH0.hNrKTKEwkmtREgQiPwS93L8RA79Q1J05-5_mlGoLcDw
 

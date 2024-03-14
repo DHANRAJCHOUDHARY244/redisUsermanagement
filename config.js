@@ -6,5 +6,6 @@ const config = {
     dbName: process.env.DATABASE,
     user: process.env.USER_EMAIL,
     pass: process.env.PASS_EMAIL,
+    redisPrefix:process.env.REDISPREFIX,
 }
 module.exports = config 

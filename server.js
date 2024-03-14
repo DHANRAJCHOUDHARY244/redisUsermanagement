@@ -11,6 +11,7 @@ app.use(bodyParse.json());
     await connect()
 })()
 
+
 app.use('/auth', userRoutes)
 
 app.listen(port, () => {
