@@ -1,0 +1,35 @@
+### protected admin get all users api
+GET http://localhost:3000/admin/users
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkZExZYWtLcnFvcHh4THlLakk2WjUxdVV3dUNwNUthblhWaEhSdlFaRjMyRFo4NEdLaEtuaVMiLCJpZCI6IjY1ZmFjMDViODFiZTRjZmI2ZDVhOTcyNyIsImlhdCI6MTcxMDkzMjA1OSwiZXhwIjoxNzEwOTM1NjU5fQ.Jzb2h6j5h8Rf68BbnZtjLjO8YXF9Q2tI61wQuCPWxPQ
+
+### protected admin get single user api
+GET http://localhost:3000/admin/user
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGFkbWluLmNvbSIsInBhc3N3b3JkIjoiJDJiJDEwJExhM0d2Qmh1SEE2QndUaFlac0RRdmVPYnhzZUp2Ym1rNEtlUHVBSi9aNFFrVHI5dU5rUjU2IiwiaWF0IjoxNzEwOTMyMTE5LCJleHAiOjE3MTA5MzU3MTl9.CJmRbqrlT2Y4NM1Snp9_USrqBGLGIDX8D_oYI5Lsrm0
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
+    "role":""
+}
+
+
+### protected admin get single user api
+PUT http://localhost:3000/admin/user-role-update
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkRm1vTnEwR1JBRkYyc3hBOXpGVFlyT21ZYXdNWFF6TzdLOXdud05KY3VvWjlyZmVMQ3BEV20iLCJyb2xlIjoiYWRtaW4iLCJyZXN0cmljdCI6ZmFsc2UsImlhdCI6MTcxMDQ5NzY2MywiZXhwIjoxNzEwNTAxMjYzfQ.QX3ovLIL4HLWUyfZtU2KxAG671QOjjM2Q9W6ICdV1jY
+Content-Type: application/json
+
+{
+    "email":"2020btcse009@curaj.ac.in",
+    "role":"",
+    "restrict":""
+}
+
+### protected admin get single user api
+DELETE  http://localhost:3000/admin/del-user
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkRm1vTnEwR1JBRkYyc3hBOXpGVFlyT21ZYXdNWFF6TzdLOXdud05KY3VvWjlyZmVMQ3BEV20iLCJyb2xlIjoiYWRtaW4iLCJyZXN0cmljdCI6ZmFsc2UsImlhdCI6MTcxMDQ5NzY2MywiZXhwIjoxNzEwNTAxMjYzfQ.QX3ovLIL4HLWUyfZtU2KxAG671QOjjM2Q9W6ICdV1jY
+Content-Type: application/json
+
+{
+    "email":"2020btcse009@curaj.ac.in",
+    "role":""
+}

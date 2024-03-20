@@ -1,0 +1,190 @@
+[
+    {
+        "_id": {
+            "$oid": "65faab6ac2435900bbaebbca"
+        },
+        "role_name": "user",
+        "modules": [
+            {
+                "Name": "products",
+                "permissions": [
+                    {
+                        "name": "View Product",
+                        "url": "/product/:id"
+                    },
+                    {
+                        "name": "views products",
+                        "url": "/products"
+                    }
+                ]
+            },
+            {
+                "Name": "admin",
+                "permissions": []
+            },
+            {
+                "Name": "user",
+                "permissions": [
+                    {
+                        "name": "Register user",
+                        "url": "/reg"
+                    },
+                    {
+                        "name": "Login user",
+                        "url": "/login"
+                    },
+                    {
+                        "name": "Forget pass user",
+                        "url": "/forget-pass"
+                    },
+                    {
+                        "name": "otp verify user",
+                        "url": "/verify-otp"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65faac4fc2435900bbaebbcb"
+        },
+        "role_name": "contentAdmin",
+        "modules": [
+            {
+                "Name": "products",
+                "permissions": [
+                    {
+                        "name": "View Product",
+                        "url": "/product/:id"
+                    },
+                    {
+                        "name": "views products",
+                        "url": "/products"
+                    },
+                    {
+                        "name": "create products",
+                        "url": "/create"
+                    },
+                    {
+                        "name": "update products",
+                        "url": "/update/:id"
+                    }
+                ]
+            },
+            {
+                "Name": "admin",
+                "permissions": [
+                    {
+                        "name": "View all users",
+                        "url": "/users"
+                    },
+                    {
+                        "name": "View single user",
+                        "url": "/user"
+                    },
+                    {
+                        "name": "Role update user",
+                        "url": "/user-role-update"
+                    }
+                ]
+            },
+            {
+                "Name": "user",
+                "permissions": [
+                    {
+                        "name": "Register user",
+                        "url": "/reg"
+                    },
+                    {
+                        "name": "Login user",
+                        "url": "/login"
+                    },
+                    {
+                        "name": "Forget pass user",
+                        "url": "/forget-pass"
+                    },
+                    {
+                        "name": "otp verify user",
+                        "url": "/verify-otp"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "65faaca1c2435900bbaebbcc"
+        },
+        "role_name": "admin",
+        "modules": [
+            {
+                "Name": "products",
+                "permissions": [
+                    {
+                        "name": "View Product",
+                        "url": "/product/:id"
+                    },
+                    {
+                        "name": "views products",
+                        "url": "/products"
+                    },
+                    {
+                        "name": "create products",
+                        "url": "/create"
+                    },
+                    {
+                        "name": "update products",
+                        "url": "/update/:id"
+                    },
+                    {
+                        "name": "delete products",
+                        "url": "/del/:id"
+                    }
+                ]
+            },
+            {
+                "Name": "admin",
+                "permissions": [
+                    {
+                        "name": "View all users",
+                        "url": "/users"
+                    },
+                    {
+                        "name": "View single user",
+                        "url": "/user"
+                    },
+                    {
+                        "name": "Role update user",
+                        "url": "/user-role-update"
+                    },
+                    {
+                        "name": "delete user",
+                        "url": "/del-user"
+                    }
+                ]
+            },
+            {
+                "Name": "user",
+                "permissions": [
+                    {
+                        "name": "Register user",
+                        "url": "/reg"
+                    },
+                    {
+                        "name": "Login user",
+                        "url": "/login"
+                    },
+                    {
+                        "name": "Forget pass user",
+                        "url": "/forget-pass"
+                    },
+                    {
+                        "name": "otp verify user",
+                        "url": "/verify-otp"
+                    }
+                ]
+            }
+        ]
+    }
+]

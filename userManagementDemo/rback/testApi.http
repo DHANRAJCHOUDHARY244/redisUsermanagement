@@ -1,0 +1,39 @@
+### register user
+POST http://localhost:3000/auth/reg
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
+    "password":"admin@123"
+}
+
+### login user
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email":"admin@admin.com",
+    "password":"admin@123"
+}
+### forget pass
+POST http://localhost:3000/auth/forget-pass
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
+    "password":""
+}
+### verify otp and update pass
+POST http://localhost:3000/auth/verify-otp
+Content-Type: application/json
+
+{
+    "email":"choudharydhanraj239@gmail.com",
+    "otp":"382317",
+    "password":"admin@@123"
+}
+### protected routs
+POST http://localhost:3000/auth/users
+authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNob3VkaGFyeWRoYW5yYWoyMzlAZ21haWwuY29tIiwicGFzc3dvcmQiOiIkMmIkMTAkVEhPVXYuSjk1OWV0RFJmUk92NENrZVM3dnRESlBsUXRDdFJoU2lxODFGbVk1amxERy5ETUsiLCJpYXQiOjE3MTA0OTY3MDAsImV4cCI6MTcxMDUwMDMwMH0.kzARYdz2WxE5u4K4bev6zZQclBOTMM1lhEBoGG5Yv8A
+
+
